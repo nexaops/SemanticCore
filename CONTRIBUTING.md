@@ -24,33 +24,7 @@ Thank you for your interest in contributing to this research and educational pro
 - **Analysis Tools**: New Jupyter notebooks or analysis scripts
 - **Benchmarks**: Performance baselines and comparison studies
 
-## 🚀 Getting Started
 
-### 1. Development Setup
-```bash
-# Fork and clone the repository
-git clone https://github.com/your-username/pgvector-ecommerce-demo.git
-cd pgvector-ecommerce-demo
-
-# Start development environment
-docker-compose up --build
-
-# Install analysis dependencies (optional)
-pip install -r analysis_requirements.txt
-```
-
-### 2. Understanding the Codebase
-- **Backend**: `backend/app/` - FastAPI application with search logic
-- **Frontend**: `frontend/src/` - React components and UI
-- **Documentation**: `docs/` - Technical guides and explanations
-- **Analysis**: `data_analysis.ipynb` - Data exploration and insights
-- **Scripts**: `backend/scripts/` - Data management and utilities
-
-### 3. Key Files to Understand
-- `backend/app/services/search_service.py` - Core search algorithms
-- `backend/app/utils/embedding.py` - Dual embedding generation
-- `backend/app/models/product.py` - Database schema with vectors
-- `frontend/src/App.tsx` - Main UI component with search interface
 
 ## 📋 Contribution Process
 
@@ -104,13 +78,6 @@ asyncio.run(test_search())
 "
 ```
 
-### Frontend Testing
-```bash
-cd frontend
-npm run lint
-npm run build  # Ensure it builds successfully
-```
-
 ### Performance Testing
 ```bash
 # Test database performance
@@ -153,27 +120,6 @@ async def search_products(
         3. Apply keyword matching with word boundaries
         4. Combine results using enhanced RRF fusion
     """
-```
-
-### TypeScript (Frontend)
-- **Strict Types**: Use comprehensive TypeScript interfaces
-- **Component Props**: Define clear prop interfaces
-- **State Management**: Use appropriate React patterns
-
-```typescript
-interface SearchProps {
-  onSearch: (query: string) => void;
-  suggestions: string[];
-  loading?: boolean;
-}
-
-const SemanticSearch: React.FC<SearchProps> = ({ 
-  onSearch, 
-  suggestions, 
-  loading = false 
-}) => {
-  // Component implementation
-};
 ```
 
 ### Documentation
