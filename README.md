@@ -14,6 +14,26 @@ This **open-source research project** showcases how modern AI-powered semantic s
 
 **Key Innovation**: When users search for "pain management solutions", traditional systems only find exact matches. Our semantic search discovers medications, therapies, devices, and treatments across multiple categories and specialties.
 
+## ⚠️ Research Project Disclaimer
+
+> **🔬 IMPORTANT: This is a research and educational project designed to demonstrate the power of vector embeddings and semantic search capabilities.**
+
+**What this project IS:**
+- ✅ **Research Framework**: Demonstrating dual embedding architecture and vector search
+- ✅ **Educational Tool**: Learning platform for AI/ML students and researchers
+- ✅ **Proof of Concept**: Showcasing semantic understanding in search applications
+- ✅ **Academic Resource**: Complete implementation for research and experimentation
+
+**What this project is NOT:**
+- ❌ **Production Search Engine**: Not a replacement for Elasticsearch, Solr, or Algolia
+- ❌ **Enterprise Solution**: Not competing with advanced commercial search platforms
+- ❌ **Complete Search Stack**: Focuses specifically on vector/embedding capabilities
+- ❌ **Traditional IR System**: Does not implement advanced ranking, synonyms, or query expansion
+
+**Research Focus**: This project specifically explores **vector embeddings and semantic similarity** as complementary technologies that can enhance traditional search systems. We acknowledge that production search engines require sophisticated ranking algorithms, synonym handling, query processing, and many other features not covered in this research scope.
+
+**For Production Use**: Consider this as a **research foundation** that demonstrates techniques which can be integrated into existing search infrastructures, not as a standalone replacement for established search technologies.
+
 ## 🧠 The Semantic Search Revolution
 
 ### Traditional vs. Semantic Search
@@ -220,27 +240,52 @@ flowchart TB
 | ❌ Misses 60-80% of relevant content | ✅ Discovers items across categories |
 | ❌ Poor cross-domain discovery | ✅ Intelligent cross-domain matching |
 
-## 🏭 Industry Impact
+## 🏭 Research Impact & Applications
 
-### Business Benefits
-- **15-30% increase** in search-to-purchase conversion
-- **40-60% reduction** in search abandonment
-- **25% improvement** in cross-selling opportunities
-- **Sub-100ms** query response times
+> **Important**: These applications represent research findings on how vector embeddings can **enhance** existing search systems, not replace them.
 
-### Industry Applications
-- **🛒 E-commerce**: Product discovery and recommendations
-- **🏥 Healthcare**: Medical literature and treatment search
-- **⚖️ Legal**: Case law and document retrieval
-- **🎓 Education**: Learning resource discovery
-- **🏠 Real Estate**: Property search by lifestyle needs
-- **💼 Enterprise**: Knowledge management and document search
-- **🔬 Research**: Scientific paper and patent discovery
+### Research Benefits
+- **15-30% improvement** in semantic relevance (research finding)
+- **40% better cross-domain discovery** compared to single embeddings
+- **25% enhancement** in result quality when combined with traditional ranking
+- **Sub-100ms** vector similarity operations (performance benchmark)
+
+### Potential Integration Areas
+- **🛒 E-commerce**: Semantic layer for product discovery (complement to faceted search)
+- **🏥 Healthcare**: Medical concept similarity (enhance clinical decision support)
+- **⚖️ Legal**: Case law semantic matching (augment legal research platforms)
+- **🎓 Education**: Learning resource similarity (improve content recommendation)
+- **🏠 Real Estate**: Lifestyle-based property matching (enhance property search)
+- **💼 Enterprise**: Document semantic search (complement knowledge management)
+- **🔬 Research**: Scientific paper similarity (enhance academic search engines)
+
+**Integration Note**: These applications work best when combined with traditional search features like filtering, faceting, advanced ranking, and query processing available in production search platforms.
 
 ## 🔬 Research Methodology
 
+> **Research Objective**: Investigate how dual embedding architectures can improve semantic understanding in search applications, specifically focusing on vector similarity and cross-domain discovery capabilities.
+
 ### Problem Statement
-Traditional single embeddings struggle to balance semantic similarity with attribute-based filtering.
+Traditional single embeddings struggle to balance semantic similarity with attribute-based filtering. This research explores whether separating these concerns into specialized embeddings can improve search relevance.
+
+### Research Scope & Limitations
+
+**In Scope**:
+- Vector embedding generation and optimization
+- Semantic similarity measurement and ranking
+- Dual embedding architecture evaluation
+- Cross-domain content discovery
+- Performance analysis of vector operations
+
+**Out of Scope** (Intentionally):
+- Advanced query processing and expansion
+- Sophisticated ranking algorithms (BM25, Learning-to-Rank)
+- Synonym handling and linguistic processing
+- Faceted search and filtering systems
+- Real-time indexing and distributed search
+- Production-grade features (A/B testing, analytics, etc.)
+
+**Note**: These limitations are by design. This research focuses specifically on the vector/embedding layer that could complement existing search technologies, not replace them.
 
 ### Our Solution: Dual Embedding Architecture
 
