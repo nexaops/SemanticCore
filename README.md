@@ -16,7 +16,7 @@ This **open-source research project** showcases how modern AI-powered semantic s
 
 ## ⚠️ Research Project Disclaimer
 
-> **🔬 IMPORTANT: This is a research and educational project designed to demonstrate the power of vector embeddings and semantic search capabilities.**
+> **🔬 IMPORTANT: This is a research and educational project designed to demonstrate the power of vector embeddings and semantic search capabilities and is not intended for the replacement of established search technologies. but rather to complement them.**
 
 **What this project IS:**
 - ✅ **Research Framework**: Demonstrating dual embedding architecture and vector search
@@ -25,10 +25,9 @@ This **open-source research project** showcases how modern AI-powered semantic s
 - ✅ **Academic Resource**: Complete implementation for research and experimentation
 
 **What this project is NOT:**
-- ❌ **Production Search Engine**: Not a replacement for Elasticsearch, Solr, or Algolia
-- ❌ **Enterprise Solution**: Not competing with advanced commercial search platforms
+- ❌ **Search Engine**: Not a replacement for Elasticsearch, Solr, or Algolia
 - ❌ **Complete Search Stack**: Focuses specifically on vector/embedding capabilities
-- ❌ **Traditional IR System**: Does not implement advanced ranking, synonyms, or query expansion
+
 
 **Research Focus**: This project specifically explores **vector embeddings and semantic similarity** as complementary technologies that can enhance traditional search systems. We acknowledge that production search engines require sophisticated ranking algorithms, synonym handling, query processing, and many other features not covered in this research scope.
 
